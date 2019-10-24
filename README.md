@@ -1,5 +1,5 @@
 # Hello World
-This repository will allow you to build your first Java project of the semester, including unit and acceptance tests, using Gradle as the build tool.
+This repository will build a Java project. It includes unit and acceptance tests, using Gradle as the build tool.
 
 ## Building the Project
 After you have cloned the repository, you should be able to navigate to the directory containing the `build.gradle` file. There, you can build the project by running this command:
@@ -27,7 +27,7 @@ If you want to do a full build and reporting from a clean project, you can just 
 `gradle clean build jacocoTestReport runrobot`
 
 ## Structure
-The directory structure that is assumed by Gradle (though it can be changed if you want) is as follows:
+The directory structure that is assumed by Gradle is:
 
     project root     (root directory of project, probably "gradle-hello-world")
                |
@@ -79,6 +79,6 @@ This file holds all of the debug information from the Robot Framework tests.
 
 `build/libs/<name>.jar`
 
-This file (where *name* is specified in the jar settings of `gradle.build`) is the fully bundled code for the project. You can run this JAR by entering the following command from the project root:
+This file is the fully bundled code for the project. it can be run by typing this in the prompt:
 
 `java -jar build/libs/<name>.jar`
