@@ -1,5 +1,5 @@
 Hello World
-This repository will build a Java project. It includes unit and acceptance tests, using Gradle as the build tool.
+is  a repository using Java. It includes unit and acceptance tests, using Gradle as the build tool.
 
 Building the Project
 After you have cloned the repository, you should be able to navigate to the directory containing the build.gradle file. There, you can build the project by running this command:
